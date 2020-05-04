@@ -7,11 +7,11 @@ using namespace std;
 
 int main(){
     Fish fish;
-    ofstream rysunek2("rysunek2.svg");
+    ofstream rysunek1("rysunek1.svg");
     //header(rysunek1);
-    fish.draw(2,rysunek2);
+    fish.draw(1,rysunek1);
     //closer(rysunek1);
-    rysunek2.close();
+    rysunek1.close();
 
     return 0;
 }

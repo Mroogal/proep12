@@ -4,7 +4,7 @@ class Back_Fin: public Body_Part{
     public:
     virtual void draw(int j,std::ofstream& c){
     if(j==1)
-c << "<path style=\"fill:#00ffcc;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"m 174.625,133.71428 25.70238,-0.75595 -0.75595,31.75 z\"/>";
+c << "<path d=\"M610.66 299.2L610.66 400.24L521.5 299.2L610.66 299.2Z\" id=\"d26PqM1PRX\"/>";
     if(j==2)
 c << "<path style=\"fill:#2affd5;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"m 89.202381,132.20238 35.529759,-0.75595 -0.75595,-27.21429 z\" id=\"path3743\" inkscape:connector-curvature=\"0\" />";
     if(j==3)
